@@ -41,7 +41,7 @@
                 <label for="inputTelefone" class="form-label">Status:</label>
                 <select class="form-select" name="status">
                   <option value="1">Ativo</option>
-                  <option value="0">Inatico</option>
+                  <option value="0">Inativo</option>
                 </select>
               </div>
             <div class="col-md-4">

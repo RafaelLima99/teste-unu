@@ -15,7 +15,7 @@
         <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-2 mb-4 bg-white rounded ">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="{{asset('imagens/logo.png') }}" alt="logo" id="logo">
+                    <img src="{{asset('imagens/logo.png')}}" alt="logo" id="logo">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">

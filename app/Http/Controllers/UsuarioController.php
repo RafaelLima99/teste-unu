@@ -49,14 +49,14 @@ class UsuarioController extends Controller
 
                     return redirect('/login')->with('msg-sucesso', 'Usuário cadastrado com sucesso.');
                 }else{
-                    return redirect('/cadastro/usuario')->with('msg-erro', 'O username já existe no banco');
+                    return redirect('/criar-conta')->with('msg-erro', 'O username já existe no banco');
                 }
             }else{
-                return redirect('/cadastro/usuario')->with('msg-erro', 'O email já exite no banco');
+                return redirect('/criar-conta')->with('msg-erro', 'O email já exite no banco');
             }
             
         }else{
-            return redirect('/cadastro/usuario')->with('msg-erro', 'Por favor! Preencha todos os campos');
+            return redirect('/criar-conta')->with('msg-erro', 'Por favor! Preencha todos os campos');
         }
     }
 
