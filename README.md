@@ -1,12 +1,11 @@
 
 # Como executar o projeto
-Pré-requisitos: PHP >= 7
 
 ```bash
 # clonar repositório
 git clone https://github.com/RafaelLima99/teste-unu.git
 
-# Criar banco de dados no PHPMyAdmin com o nome:db_unu
+# Criar banco de dados no PHPMyAdmin com o nome: db_unu
 
 #  rodar o comando: php artisan migrate
 
