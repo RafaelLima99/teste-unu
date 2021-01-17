@@ -1,13 +1,14 @@
 
+# Como executar o projeto
+Pré-requisitos: PHP >= 7
+
+```bash
 # clonar repositório
 git clone https://github.com/RafaelLima99/teste-unu.git
 
-# Instalar dependencias do projeto
-composer install    
+# Criar banco de dados no PHPMyAdmin com o nome:db_unu
 
-# Criar banco de dados no PHPMyAdmin com o nome: db_unu
-
-# rodar o comando: php artisan migrate
+#  rodar o comando: php artisan migrate
 
 # inserir dados na tabela series
 INSERT INTO series (serie) VALUES ('1º ano'), ('2º ano'), ('3º ano') 
@@ -16,3 +17,7 @@ INSERT INTO series (serie) VALUES ('1º ano'), ('2º ano'), ('3º ano')
 php artisan serve
 
 # criar conta e fazer login 
+
+# Autor
+Rafael Lima dos Santos Cabral
+E-mail: rafaellima.ti.99@gmail.com
